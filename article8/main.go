@@ -2,6 +2,8 @@ package main
 
 import (
 	"flag"
+
+	hello "github.com/tacyuuhon/core-golang-36-lessons/article8/hello"
 )
 
 var name string
@@ -12,5 +14,5 @@ func init() {
 
 func main() {
 	flag.Parse()
-	Hello(name)
+	hello.Hello(name)
 }
