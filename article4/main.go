@@ -12,8 +12,11 @@ func init() {
 }
 
 //
-//go run main.go -name="Robert"
+// Run:
+// go run main.go -name="Robert"
 //
+// Help:
+// go run main.go --help
 func main() {
 	flag.Parse()
 	fmt.Printf("ip: %s", name)
